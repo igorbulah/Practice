@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+h1 {
+    color: white;
+    }
+ul { 
+        list-style-type: square; /* Маркеры в виде квадрата */
+}     
+#line1 {
+       color: red;
+}
+#line2 {
+      color: Orange;
+}
+#line3 {
+    color: yellow;
+}
+#line4 {
+    color: green;
+}
+#line5 {
+    color: lightblue;
+}
+#line6 {
+    color: blue;
+}
+#line7 {
+       color: Violet;
+}

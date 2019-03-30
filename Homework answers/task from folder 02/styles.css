@@ -1,0 +1,52 @@
+html {
+    font-family:  'Trebuchet MS', Trebuchet, Arial, sans-serif
+}
+
+header {
+    background-color: #4A4F56; /*цвет фона заголовка*/
+    padding: 0px;
+    margin-top: 1px;
+    color: #EB7E7F;
+    text-align: center;
+ }
+body { 
+    background-color: #3B3F45;
+}
+table {
+    margin: 0 auto; /*задает величину отступа*/
+    font-size: 24px;
+    color: white;
+    text-align: left;      
+}
+
+td {
+    height: 50px;
+    width: 600px;
+    border: 0px;
+}
+tr:nth-child(odd) {
+    background-color: #88839E;    
+}
+tr:nth-child(even) {
+    background-color: #7A7593;
+}
+td:hover { 
+     background-color:#625E77;
+     border-top: 2px solid currentColor;
+     border-bottom: 2px solid currentColor;
+}
+td:active {
+    background-color: red;
+}
+span {
+    font-size: 14px;  
+}
+label {
+    display: inline-block;
+    }
+input:checked + label {
+    color: white;
+    text-decoration:line-through; 
+}
+input {background-color: aqua
+}

@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+
+
+/* .checkInput {
+    display: none;
+}
+.checkLabel {
+    padding-left: 30px;
+    position: relative;
+    display: none;
+}
+.checkLabel:before,
+.checkLabel:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: 0;
+}
+.checkLabel:before {
+    background-color: yellow;
+    left: 0;
+    border-radius: 50%;
+   
+}
+.checkLabel:after {
+
+    height: 14px;
+    width: 14px;
+    background-color: blue;
+    border-radius: 50%;
+    content: " ";
+    left: 3px;
+    color: blueviolet;
+    display: none;
+    margin-top: 4px;
+    margin-left: 3px;
+
+}
+.checkInput:checked + .checkLabel:after {
+    display: block;
+} */

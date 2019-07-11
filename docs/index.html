@@ -36,8 +36,10 @@
 	<header id="home">
 		<!-- Background Image -->
 		<div id="trailer" class="is_overlay">
-			<img class="img-responsive" src="./img/cvetnoy.jpg" width="100%" height="auto" alt="">
-			
+			<video id="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
+				<source src="background1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+				<source src="background1.webm" type='video/webm; codecs="vp8, vorbis"'/>
+			</video>
 		</div>
 		<!-- /Background Image -->
 
@@ -275,7 +277,32 @@
 	<!-- /adv+ -->
 
 	<!-- Testimonial -->
-	
+	<div id="testimonial" class="section md-padding-2 bg-gray">
+
+		<!-- Container -->
+		<div class="container-gray-2">
+
+			<!-- Row -->
+			<div class="row">
+				<div class="section-header text-center">
+					<h2 class="title">Testimonials</h2>
+					<div class="col-md-6">
+						<div id="about-slider" class="owl-carousel owl-theme">
+							<img class="img-responsive" src="./img/test_1.png" alt="">
+							<img class="img-responsive" src="./img/test_1.png" alt="">
+							<img class="img-responsive" src="./img/test_1.png" alt="">
+							<img class="img-responsive" src="./img/test_1.png" alt="">
+						</div>
+					</div>
+				</div>
+
+
+				</div>
+				<!-- /why choose us content -->
+			</div>
+			<!-- /Row -->
+
+		</div>
 		<!-- /Container -->
 	</div>
 	<!-- /Testimonial+ -->
@@ -364,7 +391,7 @@
 							</div>
 						</div>
 						<div class="team-content">
-							<h3>JACK</h3>
+							<h3>Eugene Druz</h3>
 							<span>Web Designer</span>
 						</div>
 					</div>
@@ -385,7 +412,7 @@
 							</div>
 						</div>
 						<div class="team-content">
-							<h3>THOMAS</h3>
+							<h3>Eugene Druz</h3>
 							<span>Web Designer</span>
 						</div>
 					</div>
@@ -406,7 +433,7 @@
 							</div>
 						</div>
 						<div class="team-content">
-							<h3>LEO</h3>
+							<h3>Eugene Druz</h3>
 							<span>Web Designer</span>
 						</div>
 					</div>
@@ -512,7 +539,7 @@
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i>DANIEL</li>
+								<li><i class="fa fa-user"></i>Eugene Druz</li>
 								<li><i class="fa fa-clock-o"></i>18 Oct</li>
 								<li><i class="fa fa-comments"></i>57</li>
 							</ul>
@@ -531,7 +558,7 @@
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i>ARTHUR</li>
+								<li><i class="fa fa-user"></i>Eugene Druz</li>
 								<li><i class="fa fa-clock-o"></i>18 Oct</li>
 								<li><i class="fa fa-comments"></i>57</li>
 							</ul>
@@ -550,7 +577,7 @@
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i>BOBBY</li>
+								<li><i class="fa fa-user"></i>Eugene Druz</li>
 								<li><i class="fa fa-clock-o"></i>18 Oct</li>
 								<li><i class="fa fa-comments"></i>57</li>
 							</ul>
@@ -571,7 +598,24 @@
 	<!-- /Blog +-->
 
 	<!-- PART -->
-	
+	<div id="part" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+				<div class="section-header text-center">
+					<img src="./img/part.png">
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
 	<!-- /PART+ -->
 
 
@@ -595,7 +639,7 @@
 					<div class="contact">
 						<i class="fa fa-phone"></i>
 						<h3>Phone</h3>
-						<p>+38099697526</p>
+						<p>+380990907942</p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -605,7 +649,7 @@
 					<div class="contact">
 						<i class="fa fa-envelope"></i>
 						<h3>Email</h3>
-						<p>igorbulah91@gmail.com</p>
+						<p>druzuchih@gmail.com</p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -637,7 +681,7 @@
 
 		</div>
 		<!-- /Container -->
-		<!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
 		</script>
 		<div id="map" style='overflow:hidden;height:440px;width:700px;'>
 			<div id='gmap_canvas' style='height:440px;width:700px;'>
@@ -654,7 +698,7 @@
 			<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
 		</div>
 		<script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.02903332992264,31.996475486912686),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.02903332992264,31.996475486912686)});infowindow = new google.maps.InfoWindow({content:'<strong>Название</strong><br>Moscow, Russia<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-	</div> -->
+	</div>
 	<!-- /Contact -->
 
 
@@ -689,7 +733,7 @@
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2018. </p>
+						<p>Copyright © 2018. All Rights Reserved. Designed by Eugene DRUZ <a href="https://www.templatemonster.com/" target="_blank">TEMPLEMONSTER</a></p>
 					</div>
 					<!-- /footer copyright -->
 

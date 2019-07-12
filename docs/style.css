@@ -43,8 +43,12 @@ a:hover, a:focus {
 .main-color {
   color: #6195FF; }
 
-.white-text {
+.white-text-two {
   font-size: 18px;
+  color: #FFF; }
+
+.white-text {
+  font-size: 65px;
   color: #FFF; }
 
 ::-moz-selection {
@@ -98,6 +102,9 @@ ul, ol {
   background: -webkit-linear-gradient(bottom, rgba(65, 126, 196, 0.459), #4ceefa);
   background: -o-linear-gradient(bottom, rgba(65, 126, 196, 0.459), #4ceefa);
   background: linear-gradient(to top, rgba(65, 126, 196, 0.459), #4ceefa);
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE; }
 
@@ -1524,7 +1531,8 @@ header {
   float: right;
   margin-right: 15px; }
 
-.bg-gray-2 {
+.bg-gray-3 {
+  background-image: url("monopane-9.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -1583,8 +1591,7 @@ header {
 #text_home_2 {
   font-style: italic;
   font-family: 'Russo One', sans-serif;
-  letter-spacing: 2px;
-  font-size: 65px; }
+  letter-spacing: 2px; }
 
 #but {
   margin-top: 50px;
@@ -1612,6 +1619,3 @@ header {
   right: 0;
   bottom: 0;
   opacity: .8; }
-
-#map {
-  margin: auto; }
